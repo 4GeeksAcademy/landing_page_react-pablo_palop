@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({title, image, color}) => {
     return (
-        <div className="card" style={{ 'width': '18rem' }}>
+        <div className="card" style={{ 'width': '18rem' , 'margin' : '10px' }}>
             <img src={image} className="card-img-top" alt="..." />
             <div className="card-body" style={{backgroundColor : color}}>
                 <h5 className="card-title">{title}</h5>

@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Card from "./Card";
+import Acordeon from "./Acordeon";
 
 //create your first component
 const Home = () => {
@@ -37,8 +38,9 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
+			<Acordeon />
 			<div className='container'>
-				<div className='row'>
+				<div className='row d-flex m-3'>
 					{
 						headers.map(item => (<Card key={item.id} title={item.title} image={item.image} color={item.color}/>))
 					}
