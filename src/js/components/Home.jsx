@@ -1,10 +1,9 @@
 import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Card from "./Card";
 import Acordeon from "./Acordeon";
+import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -39,6 +38,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Acordeon />
+			<Jumbotron />
 			<div className='container'>
 				<div className='row d-flex m-3'>
 					{
@@ -46,6 +46,7 @@ const Home = () => {
 					}
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };

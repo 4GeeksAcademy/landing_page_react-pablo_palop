@@ -1,6 +1,6 @@
 import React from "react";
 
-const Acordeon = ({title, image, color}) => {
+const Acordeon = () => {
     return (
         <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
